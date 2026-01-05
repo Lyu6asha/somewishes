@@ -12,24 +12,20 @@
   }
   
   html {
-    height: 100%;
-    margin: 0;
     -webkit-font-smoothing: antialiased;
   }
 
   .body {
-    /*background-color: #ef6969;
+
     color: white;
     position: relative;
-    max-width: 100%;
-    min-height: 100%;
-    margin: 0 auto;
+    max-width: 100vw;
+    min-height: 100vh;
     font-family: 'Suisse';
     box-sizing: border-box;
-    padding: 36px;*/
     background-image: url(https://www.perfectstock.ru/files/preview/1280x854/1b1793fb8d95a9b145f379cbe45a9949-l-21583943527x5jlislokb0xxbibmndwaajah41xovcraylqbjclixc1vd9t0bmfmbm96cat9h2cfchrjmh2arbc84xcpkt95we3igaxzmgkpxdz.jpg?size=medium);
     
-    background-color: #ef6969;
+    /*background-color: #ef6969;*/
     color: rgb(79, 82, 250);
     font-family: 'Suisse';
     background-repeat:no-repeat;
@@ -42,14 +38,11 @@
 
 .header {
     display: flex;
-    margin: auto;
+    
     height: 100vh;
     width: 100vw;
 }
 
-.logo {
-    margin: auto;
-}
 
 .button {
     background-color: rgba(255, 255, 255, 0.4);
