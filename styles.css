@@ -27,19 +27,24 @@
     font-family: 'Suisse';
     box-sizing: border-box;
     padding: 36px;*/
-    /*background-image: url(https://downloader.disk.yandex.ru/preview/b1a0b7c8a6baaa0338747f6fd7fa52530e0dca5bb1f833d2e852d82a38adbc79/695ac69d/Xod_Qu8gpQf_b_45UYJKMJ5O7jYxidwxm9BUMdBzumHTkXrK6FsLe4Y6vS8jLjh6IAPI8TefQ3VlIaY_KUaP0Q%3D%3D?uid=0&filename=%D0%91%D0%B5%D1%80%D0%B5%D0%B3%20%D0%BC%D0%BE%D1%80%D1%8F%20-%20640x428.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v3&size=2048x2048);
-    */
+    background-image: url(https://www.perfectstock.ru/files/preview/1280x854/1b1793fb8d95a9b145f379cbe45a9949-l-21583943527x5jlislokb0xxbibmndwaajah41xovcraylqbjclixc1vd9t0bmfmbm96cat9h2cfchrjmh2arbc84xcpkt95we3igaxzmgkpxdz.jpg?size=medium);
+    
     background-color: #ef6969;
     color: rgb(79, 82, 250);
     font-family: 'Suisse';
     background-repeat:no-repeat;
+    background-position: center;
     background-size:cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .header {
     display: flex;
     margin: auto;
-    height: 100vw;
+    height: 100vh;
+    width: 100vw;
 }
 
 .logo {
@@ -67,4 +72,5 @@
 
 .advice {
     margin: auto;
+    display: none;
 }
