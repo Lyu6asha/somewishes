@@ -26,7 +26,7 @@
     /*background-image: url(https://www.perfectstock.ru/files/preview/1280x854/1b1793fb8d95a9b145f379cbe45a9949-l-21583943527x5jlislokb0xxbibmndwaajah41xovcraylqbjclixc1vd9t0bmfmbm96cat9h2cfchrjmh2arbc84xcpkt95we3igaxzmgkpxdz.jpg?size=medium);
     */
     /*background-color: #ef6969;*/
-    color: rgb(79, 82, 250);
+    /*color: rgb(79, 82, 250);*/
     font-family: 'Suisse';
     background-repeat:no-repeat;
     background-position: center;
@@ -39,8 +39,8 @@
 .header {
     display: flex;
     
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.1);
     margin: 0;
 }
