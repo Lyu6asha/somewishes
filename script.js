@@ -36,14 +36,22 @@ let button = document.querySelector(".button");
 button.addEventListener('click', function(){
     let randomIndex1 = Math.floor(Math.random() * 9);
     let randomIndex2 = Math.floor(Math.random() * 9);
+
     background_img.style.backgroundImage = 'url('+images[randomIndex2]+')';
 
     let advice = document.querySelector('.advice');
-    advice.style.display = 'flex';
+
     button.style.display = 'none';
 
-    let phrase = document.querySelector('.phrase');
-    phrase.textContent = strings[randomIndex1];
+    setTimeout(() => {
+        advice.style.display = 'flex';
+        let phrase = document.querySelector('.phrase');
+        phrase.textContent = strings[randomIndex1];
+    }, 400);
+
+
+    
+    
 
 })
 
